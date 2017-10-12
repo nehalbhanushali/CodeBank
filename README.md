@@ -1,2 +1,2 @@
-## Personal and gathered solutions to problems on Hackerrank, Leetcode and various interviews
+## Personal and gathered solutions to problems on Hackerrank, Leetcode, GeeksForgeeks and various interviews
 
