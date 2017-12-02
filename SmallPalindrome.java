@@ -11,3 +11,12 @@ return false;
 }
 return true;}
 */
+
+/* using inbuilt functions
+var name = "nehalahen";
+console.log(isPali(name));
+
+function isPali(s){
+console.log(s == s.split("").reverse().join(""))
+}
+*/
