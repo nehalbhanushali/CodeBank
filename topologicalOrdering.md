@@ -2,7 +2,7 @@
 
 #### Deinition:
 - A topological sort or topological ordering of a directed graph is a linear ordering of its vertices such that for every directed edge uv from vertex u to vertex v, u comes before v in the ordering.
-
+```
 1 ---* 2 ----* 3
  \     |     *
   \    |    /
@@ -10,6 +10,7 @@
     \  |  /  
      * * /
        4 ----* 5
+ ```
        
        In the solution 5 can not come before 4, 3 can not come before 4, 2 can not come before 1, etc
        So convering above to edges
