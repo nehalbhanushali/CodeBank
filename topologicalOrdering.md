@@ -35,11 +35,14 @@
  
  These are both possible
  
+ #### Video explanation
+ Check out Jenny Lamba's explanation [here]( https://www.youtube.com/watch?v=dis_c84ejhQ)
  
- Also, love this Indian instructor : Jenny Lamba
- Check out her explanation [here]( https://www.youtube.com/watch?v=dis_c84ejhQ)
- 
- Example application : [Course Schedule](https://leetcode.com/problems/course-schedule/) as it also helps detect cycle in graph by telling you that there is no topological ordering available for the graph.
+ #### Example application :
+[Course Schedule](https://leetcode.com/problems/course-schedule/) as it also helps detect cycle in graph by telling you that there is no topological ordering available for the graph.
+
+ #### NOTES:
+ - Dynamic programming solution ( DP ). It uses a 2D array (matrix) to keep an update of indegree values
  
  
  
