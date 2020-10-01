@@ -34,7 +34,10 @@
  These are both possible
  
  
- Also, love this instructor : Jenny Lamba ( https://www.youtube.com/watch?v=dis_c84ejhQ )
+ Also, love this Indian instructor : Jenny Lamba
+ Check out her explanation [here]( https://www.youtube.com/watch?v=dis_c84ejhQ)
+ 
+ Example application : [Course Schedule](https://leetcode.com/problems/course-schedule/)
  
  
  
