@@ -37,7 +37,7 @@
  Also, love this Indian instructor : Jenny Lamba
  Check out her explanation [here]( https://www.youtube.com/watch?v=dis_c84ejhQ)
  
- Example application : [Course Schedule](https://leetcode.com/problems/course-schedule/)
+ Example application : [Course Schedule](https://leetcode.com/problems/course-schedule/) as it also helps detect cycle in graph by telling you that there is no topological ordering available for the graph.
  
  
  
