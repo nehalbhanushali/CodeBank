@@ -42,7 +42,7 @@
 [Course Schedule](https://leetcode.com/problems/course-schedule/) as it also helps detect cycle in graph by telling you that there is no topological ordering available for the graph.
 
  #### NOTES:
- - Dynamic programming solution ( DP ). It uses a 2D array (matrix) to keep an update of indegree values
+ - Dynamic programming solution ( DP ). It uses an DP array to keep an update of indegree values
  
  
  
