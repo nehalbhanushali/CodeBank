@@ -24,6 +24,8 @@
   
  1       2        3        4        5
  
+ ( See [diagram here](https://leetcode.com/problems/find-eventual-safe-states/) )
+ 
  If all the edges are in the right direction ( ---> ) it is topologically sorted or ordered. The above is not as 3 <----- 4 will be seen
  
  1       2        4        3        5
