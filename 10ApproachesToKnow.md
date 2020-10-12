@@ -26,7 +26,7 @@ Just know these and find your ways around solutions rather than learning or rath
  ## 6. Reversing a linked list
  
  ## 7. Sorting fundamentals  (time complexity, functioning, etc.)
-    *O(N^2)*
+   *O(N^2)*
    - Insertion Sort
    - Bubble Sort
    *O(NlogN)*
