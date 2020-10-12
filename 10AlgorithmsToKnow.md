@@ -1,12 +1,13 @@
 Just know these and find your ways around solutions rather than learning or rather memorizing 200s of different solutions 
 
 ## Depth first search
- - recursion, back tracking ( improve with dynamic programing or caching subproblem solutions )
+ - recursion, back tracking (internally a stack solution)
  - inorder, preorder, post order traversal
+ - Enhancements: improve with dynamic programing or caching subproblem solutions
  - When? - string, substring 
 
 ## Breadth first search
- - Queue
+ - Uses queues
  - level order traversal
  - When? - 
  
