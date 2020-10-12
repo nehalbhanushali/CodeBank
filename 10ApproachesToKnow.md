@@ -47,7 +47,7 @@ Just know these and find your ways around solutions rather than learning or rath
  ## 10. Binary Search
  - divide and conquer, check if desired number *x >, =, < mid*, recursively till either *x=mid* or leftPointer *>* (i.e crosses) rightPointer
  A good video to learn how to basically implement it https://www.youtube.com/watch?v=V_T5NuccwRA
- - Although returning -1 for not found is acceptable, [Java's implementation](https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html#binarySearch(java.util.List,%20T)) of binary search returns (- insertionPoint - 1)
+ - Although returning -1 for not found is acceptable, [Java's implementation](https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html#binarySearch(java.util.List,%20T)) of binary search returns (- insertionPoint - 1) which is cool
 
  ### Reference: https://www.youtube.com/watch?v=r1MXwyiGi_U&t=59s
  #### I started this document as 10 algorithms to know as the channel suggests, then they turned to data structures to know, and then really tricks to know :D
