@@ -38,3 +38,10 @@ expand palindrome
 Steps: 
 - start with one letter (i=j) or 2 adjacent letters (j-i = 1)
 - i--, j++
+
+### Longest valid parentheses
+- stack
+  insert indices of '('
+- DP
+  s : [( ,) ,( ,( ,) ,) ]
+  DP:[0,2,0,0,2,6]
