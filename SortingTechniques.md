@@ -26,6 +26,7 @@ To sort array - (Use max heap deletion)
 NOTE: 
 1. the array is being sorted in place.
 2. For descending order, use min heap
+3. Java implements heap : Priority Queue :)
     
 Ref: [max heap insertion and deletion](https://www.youtube.com/watch?v=NEtwJASLU8Q&t=969s)
 
