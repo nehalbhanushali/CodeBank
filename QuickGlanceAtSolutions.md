@@ -6,7 +6,8 @@ reverse upside down and then swap with diagonally opposite cells
 
 ### kth smallest or largest integer	
 1.sort & then traverse.     
-2.Priority Queue with limit
+2.Priority Queue with limit ( A min heap / max heap implementation by java )
+TC: O(Nlogk). logk is constant
 
 ### islands, floodfill	
 1. DFS drown/mark
@@ -45,3 +46,5 @@ Steps:
 - DP
   s : [( ,) ,( ,( ,) ,) ]
   DP:[0,2,0,0,2,6]
+  
+  Also check [the ppt here](https://www.linkedin.com/posts/jayati-tiwari_data-strucutre-problem-solving-techniques-activity-6684391136074715137-z80V/) for different approaches to use for solving problems of different categories
