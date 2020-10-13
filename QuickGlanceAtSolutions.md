@@ -47,4 +47,4 @@ Steps:
   s : [( ,) ,( ,( ,) ,) ]
   DP:[0,2,0,0,2,6]
   
-  Also check [the ppt here](https://www.linkedin.com/posts/jayati-tiwari_data-strucutre-problem-solving-techniques-activity-6684391136074715137-z80V/) for different approaches to use for solving problems of different categories
+## Also check [the ppt here](https://www.linkedin.com/posts/jayati-tiwari_data-strucutre-problem-solving-techniques-activity-6684391136074715137-z80V/) for different approaches to use for solving problems of different categories
