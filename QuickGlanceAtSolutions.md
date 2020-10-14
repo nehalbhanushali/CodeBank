@@ -19,6 +19,19 @@ TC: O(Nlogk). logk is constant
   0 1 2 3 4 5 6
   2 7 2 6 1 3 1
   
+### Merge k sorted lists
+- 3 lists - add the 3 lists to a priority queue
+  - 123
+  - 3457
+  - 68
+- poll node (1) and attach to tail.next (result) & add its next 2,3 to queue
+  23 <- new
+  3457
+  68
+- repeat
+ 
+see solution [here](https://leetcode.com/submissions/detail/400237437/)
+  
 
 ### islands, floodfill	
 1. DFS drown/mark
