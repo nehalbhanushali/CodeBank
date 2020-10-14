@@ -9,6 +9,17 @@ reverse upside down and then swap with diagonally opposite cells
 2.Priority Queue with limit ( A min heap / max heap implementation by java )
 TC: O(Nlogk). logk is constant
 
+### wiggle sort, wave
+- Arrays.sort(array)
+- [1, 1, 2, 2, 3, 6, 7]
+   s  s  s  M  l  l  l 
+   
+  l's in  _ 7 _ 6 _ 3 _ -> odd places reverse order
+  s's in  <- _ _ 2 _ 1 _ 1  
+  0 1 2 3 4 5 6
+  2 7 2 6 1 3 1
+  
+
 ### islands, floodfill	
 1. DFS drown/mark
 
