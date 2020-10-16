@@ -72,11 +72,17 @@ DO NOT do this recursively, lol
 check [this](https://leetcode.com/submissions/detail/408056637/) out
 
 ### palindromic substring
-expand palindrome 
+1. expand palindrome 
 Steps: 
 - start with one letter (i=j) or 2 adjacent letters (j-i = 1)
 - i--, j++
-
+2. boolean[][] dp where dp[i][j] is true if i to j is a palindrome
+   anywhere if ith and jth match, check what it encloses
+   if 
+   (j - i == 1) i.e they are adjacent 'aa'
+      OR 
+   dp[i + 1][j - 1]) i.e in case of b...b is a palindrome itself due to enclosing a palindrome,  ab.....ba would be too
+ 
 ### Longest valid parentheses
 - stack
   insert indices of '('
