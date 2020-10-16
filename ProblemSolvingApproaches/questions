@@ -1,0 +1,2 @@
+### why is recursion 0(2^n)
+for every call you have 2 more calls. So if levels are 3, we have 2^0+ 2^1 + 2^2 = 7 = 2^3  - 1 
