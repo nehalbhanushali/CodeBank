@@ -64,14 +64,12 @@ Dij = min(Dij ,Dik + Dkj)
 ### can course be completed given pre reqs	
 floyd warshal variant
 
-### why is recursion 0(2^n)
-for every call you have 2 more calls. So if levels are 3, we have 2^0+ 2^1 + 2^2 = 7 = 2^3  - 1 
-
-### number of paths in matrix	
+### unique paths, number of paths in matrix	
 dp[i][j] = dp[i-1][j] + dp[i][j-1] 
 i.e 
 current = left + top.       
 DO NOT do this recursively, lol
+check [this](https://leetcode.com/submissions/detail/408056637/) out
 
 ### palindromic substring
 expand palindrome 
