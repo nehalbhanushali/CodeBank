@@ -31,7 +31,22 @@ TC: O(Nlogk). logk is constant
 - repeat
  
 see solution [here](https://leetcode.com/submissions/detail/400237437/)
-  
+
+### Median of 2 sorted arrays
+[0, 1, 2,  3,  4]
+
+m [1, 3,: 5, 20, 50] divide into 2 for starters right in the middle into lowx, highx
+n [4, 6, 7,:  8, 80] divide into 2 divide into 2 such that lowx + lowy == highx + highY make it fair
+
+check:
+3 (higest in lowx) < 8 (lowest in highY) ? yes, good
+ AND
+7 (highest in lowY) > 5 (lowest in hightX) ? no, change partitionX x++ , consecutively y changes too, to maintain balance
+
+do check until maxX <= minY && maxY <= minX i.e until both the above are true.
+once found, return max(maxX, maxY) if odd
+else average of max(maxes), min(mins)
+see [solution here](https://leetcode.com/submissions/detail/397235915/)
 
 ### islands, floodfill	
 1. DFS drown/mark
