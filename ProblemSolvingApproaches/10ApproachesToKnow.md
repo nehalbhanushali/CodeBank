@@ -24,6 +24,7 @@ Just know these and find your ways around solutions rather than learning or rath
  - When? Longest palindromic substring ( expand around the palindriome i--, j++ )
  - 3sum problem : sweeping pointers i++ --> , <-- j-- ( sweeping, you see??, opposite of expanding above)
    can be done in O(N^2) by looping for 1st number, and then inside it looping for the other 2 members in a single loop using sweeping pointers
+   that too, for UNIQUE incrementing i till a different i is found, and decrementing j till a different j is found (pre req: SORTING)
    See [implementation here](https://leetcode.com/problems/3sum/discuss/7380/Concise-O(N2)-Java-solution)
  
  ## 6. Reversing a linked list
