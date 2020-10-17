@@ -22,9 +22,13 @@ Just know these and find your ways around solutions rather than learning or rath
  ## manipulate multiple pointers/variables at once
  - slow fast pointers, opposite direction pointers, etc
  - When? Longest palindromic substring ( expand around the palindriome i--, j++ )
- - 3sum problem : sweeping pointers i++ --> , <-- j-- ( sweeping, you see??, opposite of expanding above)
-   can be done in O(N^2) by looping for 1st number, and then inside it looping for the other 2 members in a single loop using sweeping pointers
-   that too, for UNIQUE incrementing i till a different i is found, and decrementing j till a different j is found (pre req: SORTING)
+ - 3sum problem : 
+     - Brute force can be good if done sytematically. 
+     - sweeping pointers i++ --> , <-- j-- ( sweeping, you see??, opposite of expanding above)
+     - can be done in O(N^2) by looping for 1st number, and then inside it looping for the other 2 members in a single loop using sweeping pointers
+     - (pre req: SORTING) Why?
+        - AVOID DUPLICATES: incrementing i till a different i is found, and decrementing j till a different j is found 
+        - EARLY BREAK: We can stop when we reach a number > 0, because after that nothing can sum to 0
    See [implementation here](https://leetcode.com/problems/3sum/discuss/7380/Concise-O(N2)-Java-solution)
  
  ## 6. Reversing a linked list
