@@ -8,6 +8,8 @@ reverse upside down and then swap with diagonally opposite cells
 1.sort & then traverse.     
 2.Priority Queue with limit ( A min heap / max heap implementation by java )
 TC: O(Nlogk). logk is constant
+#### kth smallest in BST: 
+- in order traversal till count = k
 
 ### wiggle sort, wave
 - Arrays.sort(array)
