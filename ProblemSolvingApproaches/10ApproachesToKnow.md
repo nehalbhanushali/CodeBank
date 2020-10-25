@@ -61,3 +61,5 @@ Just know these and find your ways around solutions rather than learning or rath
  
  ### Reference: https://www.youtube.com/watch?v=r1MXwyiGi_U&t=59s
  #### I started this document as 10 algorithms to know as the channel suggests, then they turned to data structures to know, and then really tricks to know :D
+ 
+ [Path finding visualizer](https://clementmihailescu.github.io/Pathfinding-Visualizer/#) : see for yourself why certain algoritms are better than the others
