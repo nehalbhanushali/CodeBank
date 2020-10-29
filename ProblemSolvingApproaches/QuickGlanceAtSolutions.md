@@ -1,5 +1,6 @@
 ### LRU cache	
 HashMap with doubly linked list.  OR.         LinkedHashMap
+See also - [Splay trees](https://www.youtube.com/watch?v=qMmqOHr75b8) for Most frequently used
 
 ### Rotate matrix	
 reverse upside down and then swap with diagonally opposite cells
