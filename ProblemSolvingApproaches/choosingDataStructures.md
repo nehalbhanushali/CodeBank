@@ -16,3 +16,7 @@ e.g Use heap aka priority queue versus sorting totally because... ?
 ## String iteration
 - For a string w, Use w.toCharArray() instead of w.charAt(i)
 - StringBuilder instead of c1 + c2 + c3.
+
+## Caching
+- LinkedHashMap
+- Splay trees
