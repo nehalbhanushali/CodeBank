@@ -8,4 +8,7 @@ When the value returned does not depend on an instance. If something just belong
 Memory saved -  yes, as there is only one copy per class.
 See [Flyweight pattern](https://en.wikipedia.org/wiki/Flyweight_pattern) to save more memory
 
+3. When and why to declare your variables as the interface type instead, such as Map<String, List<String>>
+
+
 
