@@ -3,7 +3,9 @@ Quick sort creates 2 groups iteratively on a pivot (any position of choice, most
 Left half is group with elements smaller than pivot
 Right half is group with elements larger than or equal to pivot
 ```
-e.g. nums = [ 4, 5, 1, 2, 6, 3 ] pivot = 3, i is at start, j is at end
+e.g. nums = [ 4, 5, 1, 2, 6, 3 ] 
+pivot = 3, i is at start, j is at end
+
 while (i<j) {
 // 1. 4 > 3 ?
 // 2. 6 > 3 ?
