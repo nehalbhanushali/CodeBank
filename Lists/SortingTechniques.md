@@ -1,5 +1,7 @@
-
-
+## [QUICK SORT](https://leetcode.com/submissions/detail/401452867/)
+Quick sort creates 2 groups iteratively on a pivot (any position of choice, mostly last)
+Left half is group with elements smaller than pivot
+Right half is group with elements larger than or equal to pivot
 
 
 ## [HEAP SORT](https://www.youtube.com/watch?v=Q_eia3jC9Ts)
