@@ -30,10 +30,20 @@ Steps:
 eg: Sort [2, 6, 1, 4, 3, 5] in Ascending order 
 A. Create/Build max heap -  ( a complete binary tree where parent >= children )
  2 ways: 
- - [ ] create from scratch - insert each element - O(n log n) 
- - [x] Heapify existing complete binary tree - O(n)
+ - [ ] *create from scratch* - insert each element - O(n log n) 
+ - [x] *Heapify* - existing complete binary tree - O(n)
       
-A. Heapify - Start with non leaf node at highest index, say k & heapify, then k--
+Heapify - Start with non leaf node at highest index, say k & heapify, then k--
+ ``` 
+  2 =>   2 =swap=> 6  => 6 =>   6
+        /         /     / \    / \
+       6         2     2   1  2   1
+                             / \
+                            4   3(swap with parent till parent > child)
+                            
+  and so on...                       
+ 
+```
 ```
 Tree form
      6     
