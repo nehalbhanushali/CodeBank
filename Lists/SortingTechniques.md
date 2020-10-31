@@ -2,8 +2,9 @@
 Quick sort creates 2 groups iteratively on a pivot (any position of choice, mostly last)
 Left half is group with elements smaller than pivot
 Right half is group with elements larger than or equal to pivot
+```
 e.g. nums = [ 4, 5, 1, 2, 6, 3 ] pivot = 3, i is at start, j is at end
-```while (i<j) {
+while (i<j) {
 // 1. 4 > 3 ?
 // 2. 6 > 3 ?
 // 3. 2 > 3 ?
@@ -19,7 +20,8 @@ if (nums[i] > pivot){
   // 3 . no
 }
 ```
-
+[Worst case:](https://en.wikipedia.org/wiki/Quicksort#Worst-case_analysis)This can be really bad if pivot is smallest or largest, making j or i travel the list fully respectively. Due to this the sublist is always size n-1 instead of the desired half size.
+Pivot should be as close to median as possible
 
 ## [HEAP SORT](https://www.youtube.com/watch?v=Q_eia3jC9Ts)
 Steps:
