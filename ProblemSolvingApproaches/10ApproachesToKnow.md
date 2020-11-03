@@ -5,6 +5,7 @@ Just know these and find your ways around solutions rather than learning or rath
  - inorder, preorder, post order traversal
  - Enhancements: improve with dynamic programing or caching subproblem solutions
  - When? - string, substring
+ - When not? - shortest path : Important
 
 ## Breadth first search
  - Uses queues
