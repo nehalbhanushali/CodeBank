@@ -10,7 +10,7 @@ Just know these and find your ways around solutions rather than learning or rath
 ## Breadth first search
  - Uses queues
  - level order traversal
- - When? - 
+ - When? - shortest path : Important
  
 ## Valid parenthesis
  - stack solution
